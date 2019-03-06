@@ -1,0 +1,36 @@
+body{
+    background: black;
+}
+
+#jumbo{
+    background-image: url("fire.jpg");
+    background-size: cover;
+}
+
+#women{
+    font-size: 8px;
+}
+
+button{
+    margin-right: 15px;
+    background-color: darkred;
+    color: white;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-color: black;
+}
+
+img{
+    margin: 15px;
+}
+
+#buttons{
+    background-color: darkgrey;
+    
+    
+}
+
+#images{
+    background-color: darkgrey; 
+}

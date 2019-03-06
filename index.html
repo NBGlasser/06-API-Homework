@@ -4,18 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <title>API homework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-    <div id="buttons"></div>
+    <div id="jumbo" class="jumbotron jumbotron-fluid text-light">
+         <div class="container">
+            <h1 class="display-4">Manly Website</h1>
+            <p class="lead">For manly men</p>
+            <p id="women">... and manly women</p>
+        </div>
+    </div>
 
-    <div id="images"></div>
+    <div class="container mb-4 border border-dark" id="buttons"></div>
+
+    <div class="container" id="images"></div>
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-        var topics = ["explosions", "beer", "monster trucks", "video games", "sports"]
+        var topics = ["explosions", "beer", "monster trucks", "video games", "sports", "wrestling", "meat", "muscles"]
         $(document).ready(function () {
             for(i=0; i<topics.length; i++){
                 var newButton = $("<button>");
