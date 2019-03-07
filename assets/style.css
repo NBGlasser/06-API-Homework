@@ -7,8 +7,13 @@ body{
     background-size: cover;
 }
 
-#women{
+small{
     font-size: 8px;
+    margin-left: 30px;
+}
+p{
+    margin-left: 150px;  
+    margin-top: 25px;
 }
 
 button{
@@ -16,8 +21,10 @@ button{
     background-color: darkred;
     color: white;
     border-radius: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-color: black;
 }
 
