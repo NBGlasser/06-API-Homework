@@ -27,9 +27,15 @@ button{
     padding-bottom: 5px;
     border-color: black;
 }
+button:hover { 
+    background-color: darkblue;
+  }
 
 img{
     margin: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 #buttons{
